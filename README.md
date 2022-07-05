@@ -12,11 +12,11 @@ The high-level Keras API provides building blocks to create and
 train deep learning models. Start with these beginner-friendly
 notebook examples, then read the [TensorFlow Keras guide](../guide/keras.ipynb).
 
-* [Basic classification](./keras/basic_classification.ipynb)
-* [Text classification](./keras/basic_text_classification.ipynb)
-* [Regression](./keras/basic_regression.ipynb)
-* [Overfitting and underfitting](./keras/overfit_and_underfit.ipynb)
-* [Save and load](./keras/save_and_restore_models.ipynb)
+- [Basic classification](./keras/basic_classification.ipynb)
+- [Text classification](./keras/basic_text_classification.ipynb)
+- [Regression](./keras/basic_regression.ipynb)
+- [Overfitting and underfitting](./keras/overfit_and_underfit.ipynb)
+- [Save and load](./keras/save_and_restore_models.ipynb)
 
 ```python
 import tensorflow as tf
@@ -41,9 +41,6 @@ model.fit(x_train, y_train, epochs=5)
 model.evaluate(x_test, y_test)
 ```
 
-Run this code in
-[Google's interactive notebook](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/r1/tutorials/_index.ipynb).
-
 ## Research and experimentation
 
 Eager execution provides an imperative, define-by-run interface for advanced
@@ -51,11 +48,11 @@ operations. Write custom layers, forward passes, and training loops with
 auto‑differentiation. Start with these notebooks, then read the
 [eager execution guide](../guide/eager.ipynb).
 
-* [Eager execution basics](./eager/eager_basics.ipynb)
-* [Automatic differentiation and gradient tape](./eager/automatic_differentiation.ipynb)
-* [Custom training: basics](./eager/custom_training.ipynb)
-* [Custom layers](./eager/custom_layers.ipynb)
-* [Custom training: walkthrough](./eager/custom_training_walkthrough.ipynb)
+- [Eager execution basics](./eager/eager_basics.ipynb)
+- [Automatic differentiation and gradient tape](./eager/automatic_differentiation.ipynb)
+- [Custom training: basics](./eager/custom_training.ipynb)
+- [Custom layers](./eager/custom_layers.ipynb)
+- [Custom training: walkthrough](./eager/custom_training_walkthrough.ipynb)
 
 ## ML at production scale
 
@@ -64,8 +61,8 @@ environment. TensorFlow provides a collection of pre-made Estimators to
 implement common ML algorithms. See the
 [Estimators guide](../guide/estimators.md).
 
-* [Build a linear model with Estimators](./estimators/linear.ipynb)
-* [Boosted trees](./estimators/boosted_trees.ipynb)
-* [Gradient Boosted Trees: Model understanding](./estimators/boosted_trees_model_understanding.ipynb)
-* [Build a Convolutional Neural Network using Estimators](./estimators/cnn.ipynb)
-* [Wide and deep learning with Estimators](https://github.com/tensorflow/models/tree/master/official/r1/wide_deep)
+- [Build a linear model with Estimators](./estimators/linear.ipynb)
+- [Boosted trees](./estimators/boosted_trees.ipynb)
+- [Gradient Boosted Trees: Model understanding](./estimators/boosted_trees_model_understanding.ipynb)
+- [Build a Convolutional Neural Network using Estimators](./estimators/cnn.ipynb)
+- [Wide and deep learning with Estimators](https://github.com/tensorflow/models/tree/master/official/r1/wide_deep)
